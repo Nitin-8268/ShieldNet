@@ -1,0 +1,6 @@
+{
+  "name": "ShieldNet",
+  "description": "Professional device-wide ad-blocking VPN service with privacy-first Tor integration architecture.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": []
+}
