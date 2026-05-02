@@ -1,15 +1,35 @@
 {
-  "name": "react-example",
-  "private": true,
-  "version": "0.0.0",
+  "name": "shieldnet",
+  "private": false,
+  "version": "1.0.0",
+  "description": "ShieldNet - Omni Stop Potential with VPN Services. An AI-powered VPN service application built with React, Gemini AI, and TypeScript.",
   "type": "module",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/Nitin-8268/ShieldNet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nitin-8268/ShieldNet.git"
+  },
+  "author": "Nitin-8268",
+  "license": "MIT",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "type-check": "tsc --noEmit",
+    "package": "npm run build && npm pack"
   },
+  "keywords": [
+    "vpn",
+    "security",
+    "ai",
+    "gemini",
+    "react",
+    "typescript",
+    "vite"
+  ],
   "dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.1.14",
@@ -30,5 +50,9 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.3",
     "@types/express": "^4.17.21"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   }
 }
