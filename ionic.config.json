@@ -1,0 +1,1 @@
+{\n  "name": "ShieldNet",\n  "integrations": {\n    "capacitor": {}\n  },\n  "type": "ionic",\n  "build": {\n    "android": {\n      "package": "com.shieldnet.app",\n      "versionCode": 1,\n      "version": "1.0.0"\n    }\n  }\n}
